@@ -38,6 +38,20 @@ npm run start
 
 - Mental Model of how backend servers work
 
+## Strategy | Stage 1:
+
+- refactor our web server
+
+- GET `/api/tweets/` -> return a list of tweets {id, message, username}
+- GET `/api/tweets/:username` -> return all tweets made by `:username`
+- GET `/api/tweets/:username/status/:id` -> return tweet with id `:id` if made by user `:username`
+
+- POST `/api/tweets/:username` {message, username} -> add it to the list of tweets
+
+- Add a React frontend that can talk to our express api!
+
+
+
 ### General Advice
 
 - Find the documentation for your framework
