@@ -1,3 +1,13 @@
+## How to start application
+
+To install & run this application, clone the repo and do:
+
+```
+cd api
+npm install
+npm run start
+```
+
 ## Build Twitter w/ Express JS
 
 - Twitter
