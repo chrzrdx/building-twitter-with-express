@@ -1,0 +1,20 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "To install & run this application, clone the repo and do:",
+  "main": "index.js",
+  "scripts": {
+    "api:dev": "cd api && PORT=3001 npm run start",
+    "app:dev": "cd app && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrzrdx/building-twitter-with-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrzrdx/building-twitter-with-express/issues"
+  },
+  "homepage": "https://github.com/chrzrdx/building-twitter-with-express#readme"
+}

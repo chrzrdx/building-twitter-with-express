@@ -5,8 +5,21 @@ To install & run this application, clone the repo and do:
 ```
 cd api
 npm install
-npm run start
+cd ../
+
+cd app
+npm install
+cd ../
+
+
+# in a different terminal
+npm run api:dev
+
+# in a different terminal
+npm run app:dev
 ```
+
+
 
 ## Build Twitter w/ Express JS
 

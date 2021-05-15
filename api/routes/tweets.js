@@ -35,7 +35,7 @@ router.get("/:username/status/:id", (req, res) => {
   res.send(tweet)
 })
 
-router.post("/:username/tweet", (req, res) => {
+router.post("/create", (req, res) => {
   let { username, message } = req.body
   message = message ? message.trim() : ""
 
